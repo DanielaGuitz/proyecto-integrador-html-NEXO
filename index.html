@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexo | Encuentra a quien resuelva lo que necesitas</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Nexo | Encuentra a quien resuelva lo que necesitas</title>
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
     <p class="logo">Nexo</p>
 
-    <nav aria-label="Navegación principal">
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#necesidades">Necesidades</a></li>
-        <li><a href="#postulantes">Postulantes</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+    <nav class="nav" aria-label="Navegación principal">
+      <ul class="nav__list">
+      <li><a class="nav__link" href="#inicio">Inicio</a></li>
+      <li><a class="nav__link" href="#necesidades">Necesidades</a></li>
+      <li><a class="nav__link" href="#postulantes">Postulantes</a></li>
+      <li><a class="nav__link" href="#contacto">Contacto</a></li>
       </ul>
     </nav>
-  </header>
+</header>
 
-  <main>
+<main>
 
     <section id="inicio" aria-labelledby="hero-titulo">
       <h1 id="hero-titulo">Publica lo que necesitas. Encuentra a quien lo resuelva.</h1>
@@ -30,48 +31,47 @@
         cuentan con portafolio y reseñas reales de otros clientes. Publica tu
         necesidad, revisa propuestas, y elige con confianza.
       </p>
+   </section>
+
+<section id="necesidades" class="cards-section" aria-labelledby="necesidades-titulo">
+<h2 id="necesidades-titulo">Necesidades publicadas</h2>
+
+<article class="card">
+  <h3 class="card__title">Pintar fachada de casa</h3>
+  <p class="card__text">Categoría: Pintura. Presupuesto estimado: Q800 - Q1200. Estado: Abierta.</p>
+  </article>
+
+<article class="card card--featured">
+  <h3 class="card__title">Página web para cafetería</h3>
+  <p class="card__text">Categoría: Desarrollo Web. Presupuesto estimado: Q1500 - Q2500. Estado: Abierta.</p>
+  </article>
+
+ <article class="card">
+   <h3 class="card__title">Clases particulares de matemática</h3>
+   <p class="card__text">Categoría: Tutorías. Presupuesto estimado: Q100 por hora. Estado: Abierta.</p>
+   </article>
+
     </section>
+ </main>
 
-    <section id="necesidades" aria-labelledby="necesidades-titulo">
-      <h2 id="necesidades-titulo">Necesidades publicadas</h2>
-
-      <article>
-        <h3>Pintar fachada de casa</h3>
-        <p>Categoría: Pintura. Presupuesto estimado: Q800 - Q1200. Estado: Abierta.</p>
-      </article>
-
-      <article>
-        <h3>Página web para cafetería</h3>
-        <p>Categoría: Desarrollo Web. Presupuesto estimado: Q1500 - Q2500. Estado: Abierta.</p>
-      </article>
-
-      <article>
-        <h3>Clases particulares de matemática</h3>
-        <p>Categoría: Tutorías. Presupuesto estimado: Q100 por hora. Estado: Abierta.</p>
-      </article>
-
-    </section>
-
-  </main>
-
-  <aside id="postulantes" aria-labelledby="aside-titulo">
+<aside id="postulantes" aria-labelledby="aside-titulo">
     <h2 id="aside-titulo">Postulantes destacados</h2>
 
-    <article>
-      <h3>Carlos M. — Desarrollo Web</h3>
-      <p>Calificación: 4.9 de 5 (23 reseñas)</p>
+    <article class="card">
+      <h3 class="card__title">Carlos M. — Desarrollo Web</h3>
+      <p class="card__text">Calificación: 4.9 de 5 (23 reseñas)</p>
     </article>
 
-    <article>
-      <h3>Ana R. — Pintura y Acabados</h3>
-      <p>Calificación: 4.8 de 5 (15 reseñas)</p>
+    <article class="card">
+      <h3 class="card__title">Ana R. — Pintura y Acabados</h3>
+      <p class="card__text">Calificación: 4.8 de 5 (15 reseñas)</p>
     </article>
 
   </aside>
 
   <footer id="contacto">
-    <p>Contacto: contacto@nexo.com</p>
-    <p>&copy; 2026 Nexo — Proyecto Integrador, Ingeniería en Sistemas — By Daniela Guitz</p>
+   <p>Contacto: contacto@nexo.com</p>
+   <p>&copy; 2026 Nexo — Proyecto Integrador, Ingeniería en Sistemas — By Daniela Guitz</p>
   </footer>
 
 </body>
